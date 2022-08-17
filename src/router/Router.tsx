@@ -1,8 +1,8 @@
+import { Layout } from 'components/Layout';
+import { AuthorsPage } from 'pages/AuthorsPage';
+import { PostsPage } from 'pages/PostsPage';
 import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { Layout } from '../components/Layout';
-import { AuthorsPage } from '../Pages/AuthorsPage';
-import { PostsPage } from '../Pages/PostsPage';
 
 function Router() {
   return (
