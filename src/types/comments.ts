@@ -1,5 +1,7 @@
+import { PostId } from './posts';
+
 export interface Comment {
-    postId: number,
+    postId: PostId,
     id: number,
     name: string,
     email: string,

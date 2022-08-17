@@ -1,5 +1,7 @@
+export type PostId = number
+
 export interface Post {
-    id: number,
+    id: PostId,
     userId: number,
     title: string,
     body: string,
