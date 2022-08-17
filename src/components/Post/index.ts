@@ -1,5 +1,3 @@
-// import Post from './Post';
+import Post from './Post';
 
-// export default Post;
-
-export { default as Post } from './Post';
+export default Post;

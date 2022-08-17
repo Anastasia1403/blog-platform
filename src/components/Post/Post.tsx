@@ -1,12 +1,13 @@
 import React from 'react';
-// eslint-disable-next-line object-curly-newline
-import { Wrapper, Title, Author, Photo, InfoWrapper } from './styled';
+import {
+  Wrapper, Title, Author, Photo, InfoWrapper,
+} from './styled';
 
 interface ISinglePostProps {
   title: string;
   authorName: string;
 }
-function Post(props: ISinglePostProps) {
+const Post = (props: ISinglePostProps) => {
   const { title, authorName } = props;
   return (
     <Wrapper>
@@ -17,6 +18,6 @@ function Post(props: ISinglePostProps) {
       </InfoWrapper>
     </Wrapper>
   );
-}
+};
 
 export default Post;

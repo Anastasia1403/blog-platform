@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: 750px;
+  width: 100%;
   border: 1px solid #a7a7a7;
   border-radius: 4px;
   padding: 20px;
@@ -18,7 +18,6 @@ export const Author = styled.a`
   font-size: 16px;
   cursor: pointer;
   line-height: 23px;
-  width: fit-content;
   color: #006ed5;
 `;
 
@@ -34,4 +33,5 @@ export const InfoWrapper = styled.div`
   flex-direction: column;
   gap: 10px;
   margin-left: 10px;
+  align-items: flex-start;
 `;
